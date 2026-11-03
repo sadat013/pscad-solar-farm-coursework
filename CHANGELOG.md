@@ -14,3 +14,4 @@
 - Updated `README.md` and `PORTFOLIO.md` with the student's clarification that this was solo coursework starting from MHI's downloaded case.
 - Updated `.gitignore` to track the working PSCAD model and guide in a private repository while excluding duplicate source downloads and local diagnostics.
 - Updated `docs/STATIC_AUDIT.md` to record the private repository layout and publication limit.
+- Created the private repository `sadat013/pscad-solar-farm-coursework` and a separate local clone for the curated upload. The original project folder remains intact.
