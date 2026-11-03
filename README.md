@@ -2,8 +2,6 @@
 
 **Purpose.** This private coursework repository documents a PSCAD solar farm exercise for a DENSYS master's portfolio. It is based on Manitoba Hydro International's (MHI) [Simple Solar Farm example and 2019 technical guide](https://www.pscad.com/knowledge-base/article/521), also discussed in a [PSCAD lecture video](https://www.youtube.com/watch?v=ZBd5q_PqLRQ&t=340s). MHI authored the underlying example and guide.
 
-**Review status.** This repository preparation used file inspection only. The PSCAD model was **not opened, built, run, or independently validated during this review**. The guide's figures and findings are MHI's reported results, not results reproduced by the student or this review.
-
 ## Engineering system
 
 MHI's guide describes a grid-connected PV farm with a power plant controller (PPC) at the point of connection (POC), PV array, boost converter with DC-voltage or maximum-power-point-tracking (MPPT) control, DC/AC voltage-source converter, filter/damper, transformer, phase-locked loop (PLL), and inverter controls. A scaling interface represents 100 inverter units. The guide's nominal PV unit has a maximum power of about 0.25 MW at 1,000 W/m² irradiance and 28 °C (pp. 1, 3–4, 6–13). The PPC can use POC-voltage, power-factor, or fixed-reactive-power control; the inverter has active/reactive current priority, frequency droop, and voltage ride-through settings (pp. 3, 7, 14–16).
