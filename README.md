@@ -1,6 +1,6 @@
 # PSCAD solar farm example: DENSYS study and static review
 
-**Purpose.** This private coursework repository documents a PSCAD solar farm exercise for a DENSYS master's portfolio. It is based on Manitoba Hydro International's (MHI) [Simple Solar Farm example and 2019 technical guide](https://www.pscad.com/knowledge-base/article/521), also discussed in a [PSCAD lecture video](https://www.youtube.com/watch?v=ZBd5q_PqLRQ&t=340s). MHI authored the underlying example and guide. The student started from MHI's downloaded project and says they worked on the model as solo coursework. The working file here matches MHI's distributed case apart from names, so specific independently created model content cannot be identified from this copy.
+**Purpose.** This private coursework repository documents a PSCAD solar farm exercise for a DENSYS master's portfolio. It is based on Manitoba Hydro International's (MHI) [Simple Solar Farm example and 2019 technical guide](https://www.pscad.com/knowledge-base/article/521), also discussed in a [PSCAD lecture video](https://www.youtube.com/watch?v=ZBd5q_PqLRQ&t=340s). MHI authored the underlying example and guide.
 
 **Review status.** This repository preparation used file inspection only. The PSCAD model was **not opened, built, run, or independently validated during this review**. The guide's figures and findings are MHI's reported results, not results reproduced by the student or this review.
 
