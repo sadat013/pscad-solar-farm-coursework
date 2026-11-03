@@ -1,0 +1,20 @@
+# Private coursework repository: model and guide are tracked with MHI attribution.
+# Do not change repository visibility to public before checking redistribution rights.
+/source/
+
+# Earlier local diagnostics and generated PSCAD build products.
+/diagnostics/
+*.gf*/
+*.out
+*.inf
+*.snp
+*.obj
+*.o
+*.exe
+*.log
+*.tmp
+*.bak
+
+# Curated original results can be added deliberately after validation.
+!results/reference/
+!results/reference/**
