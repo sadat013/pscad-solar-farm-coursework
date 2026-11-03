@@ -12,10 +12,10 @@ The local workspace `model/SolarFarm.pswx` references two PSCAD v4.6.3 cases:
 
 | Case | Role | Declared settings |
 | --- | --- | --- |
-| `SolarFarm_Model.pscx` | Main grid-connected farm and PPC study | 20 s duration, 15 µs time step, 495 µs sample step |
-| `PV_Array_250kW.pscx` | PV-array characteristic sweep | 2.5 s duration, 50 µs time step and sample step |
+| [`SolarFarm_Model.pscx`](model/SolarFarm_Model.pscx) | Main grid-connected farm and PPC study | 20 s duration, 15 µs time step, 495 µs sample step |
+| [`PV_Array_250kW.pscx`](model/PV_Array_250kW.pscx) | PV-array characteristic sweep | 2.5 s duration, 50 µs time step and sample step |
 
-The working main case was renamed from MHI's `SimpleSolarFarm.pscx`; internal project and component names were changed accordingly in an earlier assistant session. Its electrical parameters and logic were not deliberately altered. The PV case matches the official source copy. Original downloaded files remain under `source/`.
+The working main case was renamed from MHI's `SimpleSolarFarm.pscx`; internal project and component names were changed accordingly in an earlier assistant session. Its electrical parameters and logic were not deliberately altered. The PV case matches the official source copy. Original downloaded files remain in `source/` on the original computer; that duplicate folder is excluded from this repository.
 
 ## Reported scenarios and findings
 
@@ -25,12 +25,12 @@ The MHI guide reports a PV-array sweep producing approximately 0.25 MW maximum p
 
 | Location | Role |
 | --- | --- |
-| `model/` | Working PSCAD workspace and two cases; contains embedded custom components |
-| `source/` | Official archive and extracted source copies, retained for provenance |
-| `docs/Official_Simple_Solar_Farm.pdf` | MHI's 20-page technical guide |
+| [`model/`](model/) | Working PSCAD workspace and two cases; contains embedded custom components |
+| `source/` (local only) | Official archive and extracted source copies, retained outside the repository for provenance |
+| [`docs/Official_Simple_Solar_Farm.pdf`](docs/Official_Simple_Solar_Farm.pdf) | MHI's 20-page technical guide, in this private repository |
 | [`docs/STATIC_AUDIT.md`](docs/STATIC_AUDIT.md) | Detailed file inventory, evidence, path map, discrepancies, and publication risks |
 | [`docs/Resources.md`](docs/Resources.md) | Links to the source example and related resources |
-| `diagnostics/` | Earlier compiler diagnostic and generated build remnants; local-only, not study results |
+| `diagnostics/` (local only) | Earlier compiler diagnostic and generated build remnants; excluded from the repository, not study results |
 | [`PORTFOLIO.md`](PORTFOLIO.md) | Cautious portfolio/CV/LinkedIn draft |
 
 The files declare PSCAD X4 v4.6.3. This computer has PSCAD Free 5.1 and GFortran 13.2 according to a prior local diagnostic, but model compatibility, compiler selection in PSCAD, licensing limits, and a successful build of these cases remain **unconfirmed**. The case refers to PSCAD's `master` library; no separate MATLAB/Python dependency or external source library was found. The main case also contains an old absolute `startup_filename` path to another user's machine, documented in the [audit](docs/STATIC_AUDIT.md); do not treat that path as an available dependency.
