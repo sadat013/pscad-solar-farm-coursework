@@ -29,7 +29,7 @@ These PSCAD screenshots were supplied for this coursework repository. They show 
 
 ## Reported scenarios and findings
 
-The MHI guide reports a PV-array sweep producing approximately 0.25 MW maximum power, 1.015 kV open-circuit voltage, and 0.325 kA short-circuit current (p. 4, Fig. 6). It also shows a farm response with a load connection at 3.5 s and an AB-to-ground fault at the POC at 5 s; for the illustrated PPC voltage-control, inverter active-power-control, and boost MPPT configuration, the guide says the farm injects reactive power during the fault (p. 17, Fig. 23). These are **source-reported findings**. There are no simulation output files or independently reproduced plots in this folder.
+The MHI guide reports a PV-array sweep producing approximately 0.25 MW maximum power, 1.015 kV open-circuit voltage, and 0.325 kA short-circuit current (p. 4, Fig. 6). It also shows a farm response with a load connection at 3.5 s and an AB-to-ground fault at the POC at 5 s; for the illustrated PPC voltage-control, inverter active-power-control, and boost MPPT configuration, the farm injects reactive power during the fault (p. 17, Fig. 23). 
 
 ## Repository contents and dependencies
 
