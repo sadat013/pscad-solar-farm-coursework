@@ -13,10 +13,13 @@ Date: 2026-11-03. Scope: `PSCAD_SolarFarm_Video_2026-10-26` only. The full 20-pa
 | `source/official/Simple Solar Farm/` | Extracted official workspace and two `.pscx` cases | Duplicate source reference; exclude from public staging |
 | `docs/Official_Simple_Solar_Farm.pdf` | MHI's 2019 20-page model guide, 1.35 MB, including reference plots | Primary technical source; exclude from public staging until rights cleared |
 | `docs/Resources.md` | Source and help links prepared earlier | Keep; review citations before publication |
+| `docs/figures/solar_farm_main_case.png` and `docs/figures/pv_array_case.png` | User-supplied PSCAD schematic screenshots added 2026-11-04 | Keep in private repository; not simulation results |
 | `diagnostics/compiler_2026-10-28/` | Local Fortran test source/executable, result, and diagnosis | Local-only; unrelated to model validation |
 | `diagnostics/prior_build_SolarFarm_Model.gf132/` | Generated `.f`, `.dta`, `.map`, and `SConstruct` files from an earlier attempted build | Generated, stale after renaming; local-only; not evidence of a successful run |
 
 No independent study report, presentation, input dataset, run output (`.out`), snapshot (`.snp`), post-processing file, or separately saved result figure was found. No `.git` directory or existing Git history was found in this project folder. The 1.35 MB PDF and 586 KB main case are below usual Git LFS thresholds; rights, rather than size, are the publication constraint. The archive and extracted files duplicate one another by design. The working PV case is byte-identical to the official source; the working main case differs from the official source only by prior naming substitutions (`SimpleSolarFarm` → `SolarFarm_Model`, `Simple_PPC` → `PPC`, `SimpleSF` → `SolarFarm`, and title text). This comparison supports **renaming**, not original electrical-model development.
+
+The two later-supplied schematic screenshots show model layouts and controls, not simulation results.
 
 ## Proposed and final structure; path mapping
 

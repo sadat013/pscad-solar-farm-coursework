@@ -17,3 +17,9 @@
 - Created the private repository `sadat013/pscad-solar-farm-coursework` and a separate local clone for the curated upload. The original project folder remains intact.
 - Uploaded the working PSCAD workspace and cases, MHI guide, and coursework documentation to the private repository; verified the `main` branch contains `model/` and `docs/` and remains private.
 - Updated `README.md` links and labels so GitHub readers can distinguish tracked files from local-only provenance and diagnostics.
+
+## 2026-11-04 — model screenshots
+
+- Added user-supplied screenshots as `docs/figures/solar_farm_main_case.png` and `docs/figures/pv_array_case.png`.
+- Updated `README.md` to display both screenshots with captions stating they are schematic views, not simulation results.
+- Updated `docs/STATIC_AUDIT.md` to list the new images and their evidence limits.

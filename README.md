@@ -15,6 +15,18 @@ The local workspace `model/SolarFarm.pswx` references two PSCAD v4.6.3 cases:
 
 The working main case was renamed from MHI's `SimpleSolarFarm.pscx`; internal project and component names were changed accordingly in an earlier assistant session. Its electrical parameters and logic were not deliberately altered. The PV case matches the official source copy. Original downloaded files remain in `source/` on the original computer; that duplicate folder is excluded from this repository.
 
+## Model views
+
+These PSCAD screenshots were supplied for this coursework repository. They show the model layout and controls; they are not simulation plots or proof of a successful run.
+
+**Solar farm main case:** grid equivalent, point of connection, fault logic, solar-farm module, and plant controller.
+
+![PSCAD solar farm main case schematic](docs/figures/solar_farm_main_case.png)
+
+**PV array case:** irradiation and temperature inputs, array characteristic sweep, and MPPT-related signals.
+
+![PSCAD PV array case schematic](docs/figures/pv_array_case.png)
+
 ## Reported scenarios and findings
 
 The MHI guide reports a PV-array sweep producing approximately 0.25 MW maximum power, 1.015 kV open-circuit voltage, and 0.325 kA short-circuit current (p. 4, Fig. 6). It also shows a farm response with a load connection at 3.5 s and an AB-to-ground fault at the POC at 5 s; for the illustrated PPC voltage-control, inverter active-power-control, and boost MPPT configuration, the guide says the farm injects reactive power during the fault (p. 17, Fig. 23). These are **source-reported findings**. There are no simulation output files or independently reproduced plots in this folder.
@@ -28,6 +40,7 @@ The MHI guide reports a PV-array sweep producing approximately 0.25 MW maximum p
 | [`docs/Official_Simple_Solar_Farm.pdf`](docs/Official_Simple_Solar_Farm.pdf) | MHI's 20-page technical guide, in this private repository |
 | [`docs/STATIC_AUDIT.md`](docs/STATIC_AUDIT.md) | Detailed file inventory, evidence, path map, discrepancies, and publication risks |
 | [`docs/Resources.md`](docs/Resources.md) | Links to the source example and related resources |
+| [`docs/figures/`](docs/figures/) | Supplied PSCAD schematic screenshots; no run results |
 | `diagnostics/` (local only) | Earlier compiler diagnostic and generated build remnants; excluded from the repository, not study results |
 | [`PORTFOLIO.md`](PORTFOLIO.md) | Cautious portfolio/CV/LinkedIn draft |
 
